@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    width: 1450px;
+    height: 200px;
+    padding: 0 100px;
+}
+.a-main-titel {
+    color: rgb(89, 61, 167);
+    text-shadow: 0 0 15px #7d72a27d;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.a-main-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.a-block {
+    width: 300px;
+    height: 480px;
+    background-color: #eeeeee;
+    box-shadow: inset 0 0 80px #746f8f;
+    border-radius: 6px;
+    border: 4px solid #351c75;
+    transition: 0.5s;
+}
+.a-block:hover{
+    transform: scale(1.1);
+}
+.a-block:hover .a-block-prise{
+    color: rgb(75, 203, 42);
+    text-shadow: 0 0 10px #95cf93;
+}
+.a-block-name {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px #654998d5;
+}
+.a-block-img {
+    background-size: cover;
+    width: 292px;
+    height: 200px;
+}
+.a-block-prise{
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #b70d0d;
+    text-shadow: 0 0 10px #c36161;
+    transition: 0.5s;
+}
+.a-second-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+.a-block-description {
+    background-color: rgba(163, 165, 165, 0.24);
+    color: rgb(109, 108, 109);
+    font-weight: 700;
+    height: 23px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+}
+.a-button-box {
+    padding: 50px;
+    margin: 0 430px ;
+    margin-top: 100px;
+}
+.a-button {
+    width: 300px;
+    height: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    background-color: #68259b;
+    transition: 0.5s;
+}
+.a-button:hover{
+    color: #68259b;
+    background-color: #eeeeee;
+    border: 4px solid #68259b;
+    box-shadow: 0 0 40px #b476cf;
+}
+
+.ph_nazad {
+    width: 100px;
+    height: 50px;
+    background-color: #68259b;
+    border: 4px solid #eeeeee;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+.ph_nazad-text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+.ph_nazad:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px #b476cf;
+}
